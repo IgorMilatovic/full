@@ -305,9 +305,12 @@ h1, h2, h3, h4, h5,
   }
 }
 
-.pizza-img {
-  width: 130px;
+@media (max-width: 900px) {
+  .pizza-img {
+    width: 130px !important;
+  }
 }
+
 
 @media screen and (max-width: 768px) {
   .display-4 {
